@@ -1,0 +1,22 @@
+{
+  "name": "lab-16-events",
+  "version": "1.0.0",
+  "description": "event driven application that “distributes” the responsibility for logging to a separate module, using only events to trigger logging based on activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliealway-401-advanced-javascript/lab-16-events.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliealway-401-advanced-javascript/lab-16-events/issues"
+  },
+  "homepage": "https://github.com/nataliealway-401-advanced-javascript/lab-16-events#readme",
+  "dependencies": {
+    "mongoose": "^5.8.10"
+  }
+}
