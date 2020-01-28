@@ -4,7 +4,11 @@
   "description": "event driven application that “distributes” the responsibility for logging to a separate module, using only events to trigger logging based on activity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "lint": "eslint '**/*.js'",
+    "test-watch": "jest --watchAll",
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,10 @@
   },
   "homepage": "https://github.com/nataliealway-401-advanced-javascript/lab-16-events#readme",
   "dependencies": {
-    "mongoose": "^5.8.10"
+    "eslint": "^6.8.0",
+    "fs": "0.0.1-security",
+    "jest": "^25.1.0",
+    "mongoose": "^5.8.10",
+    "util": "^0.12.1"
   }
 }
