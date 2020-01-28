@@ -1,0 +1,31 @@
+{
+  "name": "lab-16-events",
+  "version": "1.0.0",
+  "description": "event driven application that “distributes” the responsibility for logging to a separate module, using only events to trigger logging based on activity",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliealway-401-advanced-javascript/lab-16-events.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliealway-401-advanced-javascript/lab-16-events/issues"
+  },
+  "homepage": "https://github.com/nataliealway-401-advanced-javascript/lab-16-events#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "fs": "0.0.1-security",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3",
+    "mongoose": "^5.8.10",
+    "util": "^0.12.1"
+  }
+}
