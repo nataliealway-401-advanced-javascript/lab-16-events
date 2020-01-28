@@ -5,11 +5,11 @@
 ### Author: Natalie Alway
 
 ### Links and Resources
-* [submission PR]()
-* [travis]()
+* [submission PR](https://github.com/nataliealway-401-advanced-javascript/lab-16-events/pull/1)
+* [travis](https://www.travis-ci.com/nataliealway-401-advanced-javascript/lab-16-events)
 
 #### Documentation
-* [api docs]() (API servers)
+* [api docs](https://github.com/nataliealway-401-advanced-javascript/lab-16-events/blob/lab16/docs/index.js.html) (API servers)
 
 ### Setup
 #### `.env` requirements (where applicable)
