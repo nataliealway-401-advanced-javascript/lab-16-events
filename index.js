@@ -14,12 +14,12 @@ require('./modules/logger.js');
 const readFile = util.promisify(fs.readFile);
 
 /**
- * This writeFile function updates the fule contents with the modified content
+ * This writeFile function updates the file contents with the modified content
  */
 const writeFile = util.promisify(fs.writeFile);
 
 /**
- * This function takes in the file's contents, changes them to strings and converts them to uppercase
+ * function takes in the file's contents, changes them to strings and converts them to uppercase
  * @param {object} fileContents 
  */
 const upperCaseContents = (fileContents) => {
